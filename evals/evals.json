@@ -1,0 +1,23 @@
+{
+  "skill_name": "first-principles-explainer",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Make a first principles explainer video about how transformer attention works. Start from dot products and build up to multi-head attention. Here's the original paper: https://arxiv.org/abs/1706.03762",
+      "expected_output": "A script.md with 5-7 scenes building from dot products to multi-head attention, a Manim scenes file with valid Python code, and proper project structure",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "I want to create an explainer video about how diffusion models generate images. Cover the forward process, reverse process, and the denoising score matching training. Use DDPM as the main reference.",
+      "expected_output": "A script.md covering forward/reverse diffusion and training, Manim scenes with math visualizations (gaussian noise, denoising steps), proper project structure",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Create a video explaining LoRA — low-rank adaptation for large language models. Explain why full fine-tuning is expensive, how low-rank decomposition works, and show the results.",
+      "expected_output": "A script.md building from fine-tuning costs to low-rank math to results, Manim scenes with matrix visualizations, proper project structure",
+      "files": []
+    }
+  ]
+}
